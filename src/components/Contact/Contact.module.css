@@ -1,0 +1,137 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    margin-top: 120px;
+    background: linear-gradient(180deg, #52ACFF 0%, #b19d1b 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 5px;
+    padding: 58px 10%;
+    gap: 10px;
+}
+
+.text h2 {
+    font-size: 80px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    background: linear-gradient(180deg, #134347 0%, #655a14 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text p {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    background: linear-gradient(180deg, #134347 0%, #655a14 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    gap: 26px;
+}
+
+.link1, .link2, .link3 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.link1 a, .link2 a, .link3 a {
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+
+
+@media (max-width: 1300px) {
+    .container {
+        padding: 50px 5%;
+        margin-top: 100px;
+    }
+
+    .text h2 {
+        font-size: 70px;
+        text-align: center;
+    }
+
+    .text p {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .link1 a, .link2 a, .link3 a {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        padding: 40px 5%;
+        margin-top: 80px;
+    }
+
+    .text h2 {
+        font-size: 60px;
+    }
+
+    .text p {
+        font-size: 30px;
+    }
+
+    .links {
+        align-items: center;
+    }
+
+    .link1, .link2, .link3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 5%;
+    }
+
+    .text h2 {
+        font-size: 40px;
+    }
+
+    .text p {
+        font-size: 24px;
+    }
+
+    .link1 a, .link2 a, .link3 a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .text h2 {
+        font-size: 32px;
+        letter-spacing: 2px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+
+    .link1 a, .link2 a, .link3 a {
+        font-size: 20px;
+    }
+}

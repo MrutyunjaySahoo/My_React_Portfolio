@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Stock Price Prediction",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to Real-time stock data updates, User authentication and Interactive charts and financial dashboards.",
+      "skills": ["React", "Express", "Node", "Mongo DB"],
+      "demo": "https://stock-price-prediction-frontend-rchd.onrender.com",
+      "source": "https://github.com/MrutyunjaySahoo/Stock-Price-Prediction"
+    },
+    {
+      "title": "MeetSphere(AVcall)",
+      "imageSrc": "projects/project.png",
+      "description": "This replicates the core features like Zoom and offer similar services like screen sharing, virtual backgrounds, ability to host webinars.",
+      "skills": ["React", "Express", "Node", "Mongo DB"],
+      "demo": "https://meetsphere-video-meeting-frontend.onrender.com",
+      "source": "https://github.com/MrutyunjaySahoo/MeetSphere_Video_Meeting"
+    },
+    {
+      "title": "Airbnb",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to create a platform that connects people looking for short-term rentals with people who have space to rent.",
+      "skills":  ["HTML", "CSS", "JS", "EJS", "Mongo DB"],
+      "demo": "https://airbnb-wanderlust-8s1i.onrender.com",
+      "source": "https://github.com/MrutyunjaySahoo/Airbnb"
+    }
+  ]
